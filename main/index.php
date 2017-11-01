@@ -102,7 +102,7 @@
                         $.ajax({
                                 type: "GET",
                                 dataType: "json",
-                                url: 'http://translation.local',
+                                url: 'http://81.24.102.222:8084/schoolprojecthbo/translation/translation.php',
                                 data: data,
                                 success: function(result) {
                                     if(result.success === false) {
